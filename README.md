@@ -10,6 +10,10 @@ This repo contains all the demos and notes that would be created during the trai
 
 MySQL version `8` is needed for this training.
 
+### Git
+
+[Download Git](https://git-scm.com/downloads)
+
 ### Java
 
 Java version `11` is used to develop the demos. You need to have Java `1.8` or above to use these demos without any trouble.
