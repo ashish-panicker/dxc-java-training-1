@@ -2,6 +2,10 @@
 
 ## Assignment 1
 
+![HR Schema](../images/HR.png)
+
+
+This is the schema for the HR dataset. Your task is to create corresponding java classes for these tables. All the identifiers must be according to Java naming conventions.
 
 ## Assignment 2
 
