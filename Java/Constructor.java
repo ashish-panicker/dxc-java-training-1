@@ -5,16 +5,17 @@ public class Constructor {
     }
 }
 
+
 class Learner {
 
     String name;
     int age;
     String address;
     String phone;
-    String email; 
+    String email;
     // global scope
 
-    public Learner(){
+    public Learner() {
         System.out.println("Default constructor");
     }
 
@@ -29,11 +30,13 @@ class Learner {
         // local scope
     }
 
-    public void printDetails(){
-        System.out.println("Name: "+name);
-        System.out.println("Age: "+age);
-        System.out.println("Address: "+address);
-        System.out.println("Phone: "+phone);
-        System.out.println("Email: "+email);
+    public void printDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Address: " + address);
+        System.out.println("Phone: " + phone);
+        System.out.println("Email: " + email);
+
+
     }
 }
