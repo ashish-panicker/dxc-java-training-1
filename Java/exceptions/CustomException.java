@@ -5,6 +5,7 @@ public class CustomException {
     public static void main(String[] args) {
 
         Voter arun = new Voter(12, "Arun");
+        System.out.println(arun.toString());
         try {
             System.out.println(CheckEligibity.checkEligibity(arun));
         } catch (InvalidVoterException e) {
@@ -62,5 +63,9 @@ class Voter {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return "Voter{" + "age=" + age + ", name='" + name + '\'' + '}';
+    }
 
 }

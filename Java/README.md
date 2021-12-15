@@ -66,3 +66,16 @@ Sample Output
 2 x 9 = 18
 2 x 10 = 20
 ```
+
+## Assignment 5
+
+**PasswordChecker**
+
+Create a Java program called `PasswordChecker`, which takes a `String` password as input and checks if it is valid. A password is valid id i satisfies teh following conditions:
+
+- It is a non-empty string.
+- It contains at least one uppercase character.
+- It contains at leat one special charecter `[$, #, %, &, -, _]`.
+- It is altleast 8 characters long.
+
+Is the password is valid print **"Valid Password"** otherwise print throw a custom `InvalidPasswordException`.
