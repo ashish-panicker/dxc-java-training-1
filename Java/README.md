@@ -71,7 +71,7 @@ Sample Output
 
 **PasswordChecker**
 
-Create a Java program called `PasswordChecker`, which takes a `String` password as input and checks if it is valid. A password is valid id i satisfies teh following conditions:
+Create a Java program called `PasswordChecker`, which takes a `String` password as input and checks if it is valid. A password is valid id it satisfies the following conditions:
 
 - It is a non-empty string.
 - It contains at least one uppercase character.
