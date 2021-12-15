@@ -1,3 +1,4 @@
+package employees;
 public class Employee {
 
     private String employeeId;
@@ -46,5 +47,11 @@ public class Employee {
 
     public void setDepartment(String department) {
         this.department = department;
+    }
+
+    public String print(){
+        return "Employee [employeeId=" + getEmployeeId()
+                + ", name=" + getName() + ", salary=" + getSalary() + ", department="
+                + getDepartment() + "]";
     }
 }
