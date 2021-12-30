@@ -32,7 +32,8 @@ Setup **JAVA_HOME**
     setx JAVA_HOME "C:\Program Files\Java\jdk-11.0.2" # assuming JDK 11 is installed in C:\Program Files\Java\jdk-11.0.2
     setx PATH "%PATH%;%JAVA_HOME%\bin"; # add the path to the JDK bin folder
 
-    # You can use the -m switch along with setx command if you are trying to the set the enviroment varibles for whole system. This require administratir privileages.
+    # You can use the -m switch along with setx command if you are trying to the set the enviroment varibles for whole system. 
+    # This require administratir privileages.
 
     setx -m JAVA_HOME "C:\Program Files\Java\jdk-11.0.2" # assuming JDK 11 is installed in C:\Program Files\Java\jdk-11.0.2
     setx -m PATH "%PATH%;%JAVA_HOME%\bin"; # add the path to the JDK bin folder
